@@ -3,6 +3,7 @@
 sudo apt-get install docker.io
 docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb
 
+apt-get install build-essential
 wget http://nginx.org/download/nginx-1.7.8.tar.gz
 wget "ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.38.tar.gz"
 wget "https://www.openssl.org/source/openssl-1.0.1j.tar.gz"
