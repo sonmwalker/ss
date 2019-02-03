@@ -31,6 +31,7 @@ make install
 cd /opt/nginx-1.7.8/conf
 
 mkdir vhost
+cd vhost
 echo "server {
   # ... part of server configuration
   server_name 45.76.157.234;
