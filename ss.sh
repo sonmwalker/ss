@@ -54,3 +54,4 @@ google on;
 google_scholar on;"
 
 echo "add "resolver 8.8.8.8" above location / { }  and location content changed to google on"
+echo "netstat -ntpl to display process using ports"
