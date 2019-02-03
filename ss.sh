@@ -1,7 +1,3 @@
-#!/usr/bin
-#https://github.com/cuber/ngx_http_google_filter_module/blob/master/README.zh-CN.md  ¾µÏñ´î½¨
-
-
 wget http://nginx.org/download/nginx-1.7.8.tar.gz
 wget "ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.38.tar.gz"
 wget "https://www.openssl.org/source/openssl-1.0.1j.tar.gz"
