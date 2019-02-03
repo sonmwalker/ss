@@ -1,5 +1,7 @@
 #!/bin/bash
 #https://github.com/cuber/ngx_http_google_filter_module/blob/master/README.zh-CN.md  
+sudo apt-get install docker.io
+docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb
 
 wget http://nginx.org/download/nginx-1.7.8.tar.gz
 wget "ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.38.tar.gz"
