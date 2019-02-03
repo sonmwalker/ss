@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/bin/bash
 #https://github.com/cuber/ngx_http_google_filter_module/blob/master/README.zh-CN.md  
 
 wget http://nginx.org/download/nginx-1.7.8.tar.gz
