@@ -49,3 +49,5 @@ echo "edit  /opt/nginx-1.7.8/conf/nginx.conf in location part, below index.html,
 add:
 google on;
 google_scholar on;"
+
+echo "add "resolver 8.8.8.8" above location / { }  and location content changed to google on"
