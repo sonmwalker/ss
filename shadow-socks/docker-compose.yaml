@@ -1,0 +1,9 @@
+# docker-compose up -d
+version: "2"
+services:
+    shadowsocks_server:
+        image: oddrationale/docker-shadowsocks
+        container_name: shadowsocks_server
+        ports:
+            - "12345:12345"
+        command: "-s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb"
