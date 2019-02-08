@@ -1,0 +1,23 @@
+duration: 1000h
+price: 00000 USD/h
+
+#blacklist:  0x8125721c2413d99a33e351e1f6bb4e56b6b633fd
+
+# optional - restricts selling resources only to specified address
+counterparty: 0x04196E05F57205c5185300Aa9Fa715594F9DD87c
+identity: anonymous
+
+resources:
+  cpu:
+    # Number of cores to assign for this plan, can be fractional
+    cores: 0.2
+  ram:
+    size: 100MB
+  storage:
+    size: 1GB
+  network:
+    throughputin: 2 Mbit/s
+    throughputout: 2 Mbit/s
+    overlay: true
+    outbound: true
+    incoming: true
