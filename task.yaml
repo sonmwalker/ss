@@ -1,0 +1,14 @@
+# docker image settings, required section
+container:
+  # Image name to start on worker, required param.
+  image: jim3ma/google-mirror
+  container_name: google-mirror
+  expose:
+    - 80:80
+#  ports:
+#      - "80:80"
+  # Env variables that will be passed to container on start.
+ # env:
+ #   param1: value1
+ #   param2: value2
+ #   param3: value3
