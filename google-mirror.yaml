@@ -1,0 +1,7 @@
+version: "2"
+services:
+    google_mirror:
+        image: jim3ma/google-mirror
+#        container_name: google-mirror
+        ports:
+            - "80:80"
