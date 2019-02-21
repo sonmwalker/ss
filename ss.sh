@@ -2,9 +2,9 @@
 #https://github.com/cuber/ngx_http_google_filter_module/blob/master/README.zh-CN.md  
 sudo apt-get update
 sudo apt-get install docker.io
-docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb
+sudo docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb
 
-docker run -d -p 80:80 jim3ma/google-mirror
+sudo docker run -d -p 80:80 jim3ma/google-mirror
 
 #apt-get install build-essential
 #wget http://nginx.org/download/nginx-1.7.8.tar.gz
