@@ -1,5 +1,6 @@
 #!/bin/bash
 #https://github.com/cuber/ngx_http_google_filter_module/blob/master/README.zh-CN.md  
+sudo apt-get update
 sudo apt-get install docker.io
 docker run -d -p 12345:12345 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 12345 -k 12345 -m aes-256-cfb
 
